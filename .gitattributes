@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+# Normalize text files to LF in the repo
+* text=auto eol=lf
+
+# Keep these as binary (no EOL changes)
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
+
+# (Optional) Per-language overrides if you want to be explicit:
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.css text eol=lf
+*.html text eol=lf
