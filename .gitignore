@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private/local data
+data/*
+!data/README.md
+*.dcm
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.raw
+*.pkl
+*.pickle
+
+# Model weights
+checkpoints/*
+!checkpoints/README.md
+*.pt
+*.pth
+*.ckpt
+
+# Generated outputs
+results/*
+!results/README.md
+
+# Local paths/config
+.env

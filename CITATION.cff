@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use HARU-Net, please cite the associated paper."
+title: "HARU-Net: Hybrid Attention Residual U-Net for Edge-Preserving Denoising in Cone-Beam Computed Tomography"
+type: software
+authors:
+  - family-names: Naveed
+    given-names: Khuram
+  - family-names: Pauwels
+    given-names: Ruben
+repository-code: "https://github.com/DrKay87/HARU-Net--Hybrid-Attention-Residual-U-Net-for-Denoising-in-Cone-Beam-Computed-Tomography"
+date-released: 2026-09-17
+preferred-citation:
+  type: article
+  title: "HARU-Net: Hybrid Attention Residual U-Net for Edge-Preserving Denoising in Cone-Beam Computed Tomography"
+  authors:
+    - family-names: Naveed
+      given-names: Khuram
+    - family-names: Pauwels
+      given-names: Ruben
+  journal: "Biomedical Physics & Engineering Express"
+  year: 2026
+  doi: "10.1088/2057-1976/ae9c46"
